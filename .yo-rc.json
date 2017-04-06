@@ -1,0 +1,13 @@
+{
+  "generator-angular-library": {
+    "githubUsername": "MarcinMichalik",
+    "githubRepoName": "bsmodal",
+    "npmModuleName": "bsmodal",
+    "moduleGlobal": "bsmodal",
+    "ngModuleName": "BsModalModule",
+    "selectorPrefix": "bs",
+    "projectTitle": "bsmodal",
+    "projectDescription": "description todo",
+    "authorName": "Marcin Michalik"
+  }
+}
