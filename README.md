@@ -28,7 +28,7 @@ and adapted for use with angular 4
 
 Install through npm:
 ```
-npm install --save bsmodal
+npm install --save @mm2/bsmodal
 ```
 
 Then include in your apps module:
@@ -85,4 +85,3 @@ and adapted for use with angular 4
 ## License
 
 MIT
-
