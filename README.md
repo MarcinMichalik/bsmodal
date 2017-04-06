@@ -21,7 +21,7 @@ https://MarcinMichalik.github.io/bsmodal/
 ## About
 
 Bootstrap 4 modal for Angular4. Rewritten from 
-[ng-bootstrap](https://github.com/ng-bootstrap) [@ng-bootstrap/ng-bootstrap] 
+[ng-bootstrap](https://github.com/ng-bootstrap) [@ng-bootstrap/ng-bootstrap](https://github.com/ng-bootstrap/ng-bootstrap) 
 and adapted for use with angular 4
 
 ## Installation
@@ -79,7 +79,7 @@ npm run release
 
 ## Credits
 
-Rewritten from [ng-bootstrap](https://github.com/ng-bootstrap) [@ng-bootstrap/ng-bootstrap] 
+Rewritten from [ng-bootstrap](https://github.com/ng-bootstrap) [@ng-bootstrap/ng-bootstrap](https://github.com/ng-bootstrap/ng-bootstrap) 
 and adapted for use with angular 4
 
 ## License
