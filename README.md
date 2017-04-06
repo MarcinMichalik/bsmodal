@@ -85,4 +85,3 @@ and adapted for use with angular 4
 ## License
 
 MIT
-
