@@ -1,0 +1,691 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>@mm2/bsmodal documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	    <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">@mm2/bsmodal documentation</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="../">@mm2/bsmodal documentation</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a href="../" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                                <li class="link">
+                                    <a 
+                                        
+                                         href="../overview.html" 
+                                         href="../overview.html" 
+                                        >
+                                        <span class="fa fa-th"></span>Overview
+                                    </a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./modules.html" >
+                            <span class="fa fa-archive"></span>
+                            <span>Modules</span>
+                            <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            ></span>
+                        </a>
+                        <ul class="links collapse in"
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="../modules/BsModalModule.html" >BsModalModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple">
+                            <span class="fa fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                    data-target="#xs-components-links"
+                                ></span>
+                        </div>
+                        <ul class="links collapse in"
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="../components/BsModalBackdropComponent.html" >BsModalBackdropComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/BsModalWindowComponent.html"  class="active" >BsModalWindowComponent</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple">
+                            <span class="fa fa-file-code-o"></span>
+                            <span>Classes</span>
+                            <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                    data-target="#xs-classes-links"
+                                ></span>
+                        </div>
+                        <ul class="links collapse in"
+                                id="xs-classes-links"
+                            >
+                                <li class="link">
+                                    <a href="../classes/ContentRef.html" >ContentRef</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/PopupService.html" >PopupService</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple">
+                            <span class="fa fa-long-arrow-down"></span>
+                            <span>Injectables</span>
+                            <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                    data-target="#xs-injectables-links"
+                                ></span>
+                        </div>
+                        <ul class="links collapse in"
+                                id="xs-injectables-links"
+                            >
+                                <li class="link">
+                                    <a href="../injectables/BsActiveModal.html" >BsActiveModal</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/BsModal.html" >BsModal</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/BsModalRef.html" >BsModalRef</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/BsModalStack.html" >BsModalStack</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple">
+                            <span class="fa fa-info"></span>
+                            <span>Interfaces</span>
+                            <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                    data-target="#xs-interfaces-links"
+                                ></span>
+                        </div>
+                        <ul class="links collapse in"
+                                id="xs-interfaces-links"
+                            >
+                                <li class="link">
+                                    <a href="../interfaces/BsModalOptions.html" >BsModalOptions</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+            
+            
+                    <li class="divider"></li>
+                    <li class="copyright">
+                            Documentation generated using <a href="https://compodoc.github.io/compodoc/" target="_blank">
+                                        <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
+                            </a>
+                    </li>
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="../">@mm2/bsmodal documentation</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a href="../" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                                       <li class="link">
+                                           <a 
+                                               
+                                                href="../overview.html" 
+                                                href="../overview.html" 
+                                               >
+                                               <span class="fa fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./modules.html" >
+                                   <span class="fa fa-archive"></span>
+                                   <span>Modules</span>
+                                   <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   ></span>
+                               </a>
+                               <ul class="links collapse in"
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="../modules/BsModalModule.html" >BsModalModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple">
+                                   <span class="fa fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                           data-target="#components-links"
+                   ></span>
+                               </div>
+                               <ul class="links collapse in"
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="../components/BsModalBackdropComponent.html" >BsModalBackdropComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/BsModalWindowComponent.html"  class="active" >BsModalWindowComponent</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple">
+                                   <span class="fa fa-file-code-o"></span>
+                                   <span>Classes</span>
+                                   <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                           data-target="#classes-links"
+                   ></span>
+                               </div>
+                               <ul class="links collapse in"
+                                       id="classes-links"
+                   >
+                                       <li class="link">
+                                           <a href="../classes/ContentRef.html" >ContentRef</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/PopupService.html" >PopupService</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple">
+                                   <span class="fa fa-long-arrow-down"></span>
+                                   <span>Injectables</span>
+                                   <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                           data-target="#injectables-links"
+                   ></span>
+                               </div>
+                               <ul class="links collapse in"
+                                       id="injectables-links"
+                   >
+                                       <li class="link">
+                                           <a href="../injectables/BsActiveModal.html" >BsActiveModal</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/BsModal.html" >BsModal</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/BsModalRef.html" >BsModalRef</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/BsModalStack.html" >BsModalStack</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple">
+                                   <span class="fa fa-info"></span>
+                                   <span>Interfaces</span>
+                                   <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                           data-target="#interfaces-links"
+                   ></span>
+                               </div>
+                               <ul class="links collapse in"
+                                       id="interfaces-links"
+                   >
+                                       <li class="link">
+                                           <a href="../interfaces/BsModalOptions.html" >BsModalOptions</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                   
+                   
+                           <li class="divider"></li>
+                           <li class="copyright">
+                                   Documentation generated using <a href="https://compodoc.github.io/compodoc/" target="_blank">
+                                               <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
+                                   </a>
+                           </li>
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content component">
+                   <div class="content-data">
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>BsModalWindowComponent</li>
+</ol>
+
+
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#infos" id="infos-tab" role="tab" data-toggle="tab">Infos</a>
+        </li>
+        <li>
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab">Source</a>
+        </li>
+    </ul>
+
+    <div class="tab-content">
+        <div class="tab-pane fade active in" id="infos"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/bs-modal-window.ts</code>
+</p>
+
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">host</td>
+                <td class="col-md-9"><code>{<br>&nbsp;&nbsp;&nbsp;&nbsp;"[class]":"\"modal fade show\" + (windowClass ? \" \" + windowClass : \"\")",<br>&nbsp;&nbsp;&nbsp;&nbsp;"role":"dialog","tabindex":"-1","style":"display: block;","(keyup.esc)":"escKey($event)","(click)":"backdropClick($event)"<br>}</code></td>
+            </tr>
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>bs-modal-window</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">template</td>
+                <td class="col-md-9"><code>&lt;div&nbsp;[class]&#x3D;&quot;&#x27;modal-dialog&#x27;&nbsp;+&nbsp;(size&nbsp;?&nbsp;&#x27;&nbsp;modal-&#x27;&nbsp;+&nbsp;size&nbsp;:&nbsp;&#x27;&#x27;)&quot;&nbsp;role&#x3D;&quot;document&quot;&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class&#x3D;&quot;modal-content&quot;&gt;&lt;ng-content&gt;&lt;/ng-content&gt;&lt;/div&gt;<br>&lt;/div&gt;<br></code></td>
+            </tr>
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+        <h3 id="inputs">Inputs</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <code>backdrop</code>
+                        </td>
+                        <td class="col-md-10">
+                              <p>
+                                <em>Type:</em>    <code>string | boolean</code>
+
+                              </p>
+                            <p>
+                              <em>Default value: </em><code>true</code>
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <code>keyboard</code>
+                        </td>
+                        <td class="col-md-10">
+                            <p>
+                              <em>Default value: </em><code>true</code>
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <code>size</code>
+                        </td>
+                        <td class="col-md-10">
+                              <p>
+                                <em>Type:</em>    <code>string</code>
+
+                              </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <code>windowClass</code>
+                        </td>
+                        <td class="col-md-10">
+                              <p>
+                                <em>Type:</em>    <code>string</code>
+
+                              </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        <h3 id="outputs">Outputs</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <code>dismiss</code>
+                        </td>
+                        <td class="col-md-10">
+                            <em><code>$event</code> type:</em>    <code><a href="https://angular.io/docs/ts/latest/api/core/index/EventEmitter-class.html" target="_blank" >EventEmitter</a></code>
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        <h3 id="constructor">Constructor</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>constructor(_elRef: <a href="https://angular.io/docs/ts/latest/api/core/index/ElementRef-class.html" target="_blank" >ElementRef</a>, _renderer: Renderer2)</code>
+                        </td>
+                    </tr>
+    
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        <h3 id="methods">Methods</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> backdropClick</b>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    <code>backdropClick($event: any)</code>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description">
+                                    <b>Returns: </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> escKey</b>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    <code>escKey($event: any)</code>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description">
+                                    <b>Returns: </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> dismiss</b>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    <code>dismiss(reason: any)</code>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description">
+                                    <b>Returns: </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+
+</div>
+        <div class="tab-pane fade tab-source-code" id="source">
+            <pre><code class="hljs javascript">import {
+    AfterViewInit, Component, ElementRef, EventEmitter, Input, OnDestroy, OnInit, Output,
+    Renderer2
+} from &#x27;@angular/core&#x27;;
+import { BsModalDismissReason } from &#x27;./bs-modal-dismiss-reason&#x27;;
+
+
+@Component({
+    selector: &#x27;bs-modal-window&#x27;,
+    host: {
+        &#x27;[class]&#x27;: &#x27;&quot;modal fade show&quot; + (windowClass ? &quot; &quot; + windowClass : &quot;&quot;)&#x27;,
+        &#x27;role&#x27;: &#x27;dialog&#x27;,
+        &#x27;tabindex&#x27;: &#x27;-1&#x27;,
+        &#x27;style&#x27;: &#x27;display: block;&#x27;,
+        &#x27;(keyup.esc)&#x27;: &#x27;escKey($event)&#x27;,
+        &#x27;(click)&#x27;: &#x27;backdropClick($event)&#x27;
+    },
+    template: &#x60;
+        &lt;div [class]&#x3D;&quot;&#x27;modal-dialog&#x27; + (size ? &#x27; modal-&#x27; + size : &#x27;&#x27;)&quot; role&#x3D;&quot;document&quot;&gt;
+            &lt;div class&#x3D;&quot;modal-content&quot;&gt;&lt;ng-content&gt;&lt;/ng-content&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &#x60;
+})
+export class BsModalWindowComponent implements OnInit, AfterViewInit, OnDestroy {
+
+    @Input() backdrop: boolean | string &#x3D; true;
+    @Input() keyboard &#x3D; true;
+    @Input() size: string;
+    @Input() windowClass: string;
+
+    @Output(&#x27;dismiss&#x27;) dismissEvent &#x3D; new EventEmitter();
+
+    // private _elWithFocus: Element;
+    private _elWithFocus: HTMLElement;
+
+    constructor(private _elRef: ElementRef, private _renderer: Renderer2) {}
+
+    ngOnInit(): void {
+        this._elWithFocus &#x3D; &lt;HTMLElement&gt;document.activeElement;
+        // this._renderer.setElementClass(document.body, &#x27;modal-open&#x27;, true);
+        this._renderer.addClass(document.body, &#x27;modal-open&#x27;);
+    }
+
+    ngAfterViewInit(): void {
+        if (!this._elRef.nativeElement.contains(document.activeElement)) {
+            // this._renderer.invokeElementMethod(this._elRef.nativeElement, &#x27;focus&#x27;, []);
+            this._elRef.nativeElement.focus();
+        }
+    }
+
+    ngOnDestroy(): void {
+        if (this._elWithFocus &amp;&amp; document.body.contains(this._elWithFocus)) {
+            // this._renderer.invokeElementMethod(this._elWithFocus, &#x27;focus&#x27;, []);
+            this._elWithFocus.focus();
+        } else {
+            // this._renderer.invokeElementMethod(document.body, &#x27;focus&#x27;, []);
+            document.body.focus();
+        }
+
+        this._elWithFocus &#x3D; null;
+        // this._renderer.setElementClass(document.body, &#x27;modal-open&#x27;, false);
+        this._renderer.removeClass(document.body, &#x27;modal-open&#x27;);
+    }
+
+    backdropClick($event: any): void {
+        if (this.backdrop &#x3D;&#x3D;&#x3D; true &amp;&amp; this._elRef.nativeElement &#x3D;&#x3D;&#x3D; $event.target) {
+            this.dismiss(BsModalDismissReason.BACKDROP_CLICK);
+        }
+    }
+
+    escKey($event: any): void {
+        if (this.keyboard &amp;&amp; !$event.defaultPrevented) {
+            this.dismiss(BsModalDismissReason.ESC);
+        }
+    }
+
+    dismiss(reason: any): void { this.dismissEvent.emit(reason); }
+}</code></pre>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/search/search.js"></script>
+       <script src="../js/search/lunr.min.js"></script>
+       <script src="../js/search/search-lunr.js"></script>
+
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/highlight.pack.js"></script>
+       <script src="../js/libs/highlightjs-line-numbers.min.js"></script>
+       <script src="../js/search/search_index.js"></script>
+       <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                hljs.initHighlightingOnLoad();
+                hljs.initLineNumbersOnLoad();
+            });
+       </script>
+
+    </body>
+</html>
