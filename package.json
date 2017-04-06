@@ -1,6 +1,6 @@
 {
   "name": "@mm2/bsmodal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bootstrap 4 modal for Angular4.",
   "main": "./bundles/bsmodal.umd.js",
   "module": "./index.js",
