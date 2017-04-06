@@ -20,7 +20,6 @@
     "no-arg": true,
     "no-construct": true,
     "no-duplicate-variable": true,
-    "no-empty": true,
     "no-eval": true,
     "no-trailing-whitespace": true,
     "no-unused-expression": true,
@@ -50,14 +49,6 @@
       "check-separator",
       "check-type"
     ],
-    "typedef": [
-      true,
-      "call-signature",
-      "parameter",
-      "property-declaration",
-      "variable-declaration",
-      "member-variable-declaration"
-    ],
     "directive-selector": [true, "attribute", "bs", "camelCase"],
     "component-selector": [true, "element", "bs", "kebab-case"],
     "use-input-property-decorator": true,
@@ -65,7 +56,6 @@
     "use-host-property-decorator": false,
     "no-attribute-parameter-decorator": true,
     "no-input-rename": true,
-    "no-output-rename": true,
     "no-forward-ref": true,
     "use-life-cycle-interface": true,
     "use-pipe-transform-interface": true,

@@ -1,3 +1,4 @@
-/**
- * Created by marcinm on 06.04.2017.
- */
+export enum BsModalDismissReason {
+    BACKDROP_CLICK,
+    ESC
+}

@@ -1,10 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+<ng-template #content let-c="close" let-d="dismiss">
+    <div class="modal-header">
+        <h4 class="modal-title">Modal title</h4>
+        <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <p>Modal body</p>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="c('Close click')">Close</button>
+    </div>
+</ng-template>
+
+<div class="card">
+    <div class="card-header">
+        <h3>Basic</h3>
+    </div>
+    <div class="card-block">
+        <button class="btn btn-outline-primary" (click)="open(content)">Launch demo modal</button>
+    </div>
+    <div class="card-footer">
+        dismiss result: {{closeResult}}
+    </div>
+</div>
+
+<div class="card mt-3">
+    <div class="card-header">
+        <h3>Component</h3>
+    </div>
+    <div class="card-block">
+        <button class="btn btn-outline-primary" (click)="openComponent()">Launch demo modal</button>
+    </div>
+    <div class="card-footer">
+        dismiss result: {{closeResult}}
+    </div>
+</div>
+
+<div class="card mt-3">
+    <div class="card-header">
+        <h3>Custom</h3>
+    </div>
+    <div class="card-block">
+        <button class="btn btn-outline-primary" (click)="openCustomClass(content, {backdrop: 'static'})">Launch backdrop</button>
+        <button class="btn btn-outline-primary" (click)="openCustomClass(content, {size: 'lg'})">Launch large</button>
+        <button class="btn btn-outline-primary" (click)="openCustomClass(content, {windowClass: 'black'})">Launch custom class</button>
+    </div>
+    <div class="card-footer">
+        dismiss result: {{closeResult}}
+    </div>
+</div>
